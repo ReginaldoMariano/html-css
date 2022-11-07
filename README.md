@@ -3,4 +3,6 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://reginaldomariano.github.io/html-css/exercicios/ex001/"> Executar o exercício 001<a>
+ <a href="https://reginaldomariano.github.io/html-css/exercicios/ex001/" target="_blank">Executar o exercício 001<a>
+
+ <a href="https://reginaldomariano.github.io/html-css/Desafios/d010/" target="_blank"> Executar o Desafio 010<a>
