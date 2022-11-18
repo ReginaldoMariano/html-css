@@ -15,16 +15,32 @@
             border-collapse: collapse;
             width: 500px;
             text-align: center;
+            position: relative;
         }
         th, td {
             border: 1px solid black;
             padding: 10px;
         }
         
+        thead >tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         thead, tfoot {
             background-color: gray;
             color: white;
         }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: lightgray;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: white;
+        }
+
         td.num {
             text-align: right;
         }
@@ -42,7 +58,7 @@
     <!-- 
         ANATOMIA PARA TABELS GRANDES
         TABLE
-            CAPATION
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -204,5 +220,11 @@
             </tr>
         </tfoot>
      </table>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse iusto obcaecati incidunt? Earum architecto minima et quas ducimus omnis ex sint veritatis quam neque officia reiciendis magni, quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ab quam rem nobis est cum animi quas quo, facere nulla recusandae ipsum veritatis optio, soluta, quae provident deleniti blanditiis obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure suscipit non maiores commodi quam, porro assumenda minima laudantium quisquam! Voluptas tenetur velit a culpa explicabo et quae, est natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusamus nostrum, vero quos illo dolores mollitia dignissimos? Quidem eos harum culpa consequuntur, labore voluptatibus a eligendi, animi iusto, doloremque iure?</p>
 </body>
 </html>
