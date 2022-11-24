@@ -10,6 +10,9 @@
  <a href="https://reginaldomariano.github.io/html-css/Desafios/d010/android.html" target="_blank"> Executar o Desafio 010<a>
 
  <a href="https://reginaldomariano.github.io/projeto-cordel/" target="_blank">Executar o Desafio 012<a>
+
+<a href="https://reginaldomariano.github.io/projeto-social/" target="_blank">Executar o Projeto Social<a>
+
  
 
 
